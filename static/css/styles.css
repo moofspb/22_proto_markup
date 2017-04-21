@@ -1,3 +1,18 @@
 #navbar-gray {
     color: #777;
 }
+
+.footer-header-1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.footer-text {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+}
+
+.footer-container {
+    background-color: #dddddd;
+}
