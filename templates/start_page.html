@@ -1,0 +1,99 @@
+{% extends '_header.html' %}
+
+
+{% block content %}
+
+
+<div class="container members-container">
+  <div class="row">
+    <ul class="list-inline">
+      <li><p class="members">Участники в Новосибирске:</p></li>
+      <li><u><a class="members" href="#">105 оптовых компаний</a></u></li>
+      <li><u><a class="members" href="#">25 производителей</a></u></li>
+    </ul>
+  </div>
+</div>
+
+
+<div class="container">
+  <div class="row">
+      <div class="col-md-10 col-md-offset-1">
+        <h1 class="search-header">ВАМ ПОЗВОНЯТ ЛУЧШИЕ ПОСТАВЩИКИ НОВОСИБИРСКА</h1>
+        <div class="search-form">
+          <form>
+            <div class="row">
+              <div class="col-md-2">
+                <p class="search-row-1-header">Я ищу</p>
+              </div>
+              <div class="col-md-10">
+                <div class="checkbox">
+                  <label>
+                    <input type="checkbox" value="">
+                    ЖБИ (фундаментальные блоки ФБС, плиты перекрытий ПК, перемычки)
+                  </label>
+                </div>
+                <div class="checkbox">
+                  <label>
+                    <input type="checkbox" value="">
+                    Кирпич / Газобетон / Брус
+                  </label>
+                </div>
+                <div class="checkbox">
+                  <label>
+                    <input type="checkbox" value="">
+                    Бетон / Раствор
+                  </label>
+                </div>
+                <div>
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><u>в Новосибирске и области</u><span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Москва</a></li>
+                      <li><a href="#">Санкт-Петербург</a></li>
+                      <li><a href="#">Казань</a></li>
+                    </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-2 search-row-3-header">
+                <label for="input-description" class="control-label">Описание *</label>
+              </div>
+              <div class="col-md-10 search-row-3-content">
+                <textarea class="form-control" rows="2" id="input-description"></textarea>
+                <p class="search-row-3-description">Пример: нужно фбс 24.4.6 50 шт плиты пк 20 ПК 60-20-12 доставка в Новолуговое</p>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-2 search-row-3-header">
+                <label for="input-phone-number" class="control-label">Телефон *</label>
+              </div>
+              <div class="col-md-3">
+                <input type="text" class="form-control" id="input-phone-number">
+              </div>
+              <div class="col-md-2 col-sm-offset-2 search-row-3-header">
+                <label for="input-name" class="control-label">Имя</label>
+              </div>
+              <div class="col-md-3">
+                <input type="text" class="form-control" id="input-name">
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-6 col-md-offset-4 search-form-button">
+                <button type="button" class="btn btn-default btn-lg">ОПУБЛИКОВАТЬ ЗАЯВКУ</button>
+              </div>
+            </div>
+
+          </form>
+        </div>
+      </div>
+
+  </div>
+</div>
+
+{% include '_footer.html' %}
+
+
+{% endblock %}
